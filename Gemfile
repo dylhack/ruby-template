@@ -2,5 +2,6 @@
 
 source "https://rubygems.org"
 
+gem "debug"
 gem "rubocop"
 gem "rubocop-shopify"
