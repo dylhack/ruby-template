@@ -2,7 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "debug"
-gem "dotenv", groups: [:development]
-gem "rubocop"
-gem "rubocop-shopify"
+group :development do
+  gem "debug"
+  gem "dotenv"
+  gem "rubocop"
+  gem "rubocop-shopify"
+end
+
