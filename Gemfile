@@ -9,3 +9,6 @@ group :development do
   gem "rubocop-shopify"
 end
 
+group :test do
+  gem "rspec"
+end
